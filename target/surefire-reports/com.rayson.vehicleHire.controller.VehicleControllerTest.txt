@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.rayson.vehicleHire.controller.VehicleControllerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.rayson.vehicleHire.controller.VehicleControllerTest
+getVehiclesForHire  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.rayson.vehicleHire.controller.VehicleControllerTest.getVehiclesForHire(VehicleControllerTest.java:46)
+

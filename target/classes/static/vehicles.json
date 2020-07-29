@@ -1,0 +1,50 @@
+[
+  {
+    "registrationNumber": "reggo1",
+    "category": "ESTATE",
+    "carNo": 1,
+    "make": "make",
+    "model": "model",
+    "hired": false
+  },
+  {
+    "registrationNumber": "reggo2",
+    "category": "SMALL",
+    "make": "make",
+    "carNo": 2,
+    "model": "model",
+    "hired": false
+  },
+  {
+    "registrationNumber": "reggo3",
+    "category": "VAN",
+    "carNo": 3,
+    "make": "make",
+    "model": "model",
+    "hired": false
+  },
+  {
+    "registrationNumber": "reggo4",
+    "category": "SMALL",
+    "carNo": 4,
+    "make": "make",
+    "model": "model",
+    "hired": false
+  },
+  {
+    "registrationNumber": "reggo5",
+    "category": "VAN",
+    "carNo": 5,
+    "make": "make",
+    "model": "model",
+    "hired": false
+  },
+  {
+    "registrationNumber": "reggo6",
+    "category": "ESTATE",
+    "carNo": 6,
+    "make": "make",
+    "model": "model",
+    "hired": false
+  }
+]

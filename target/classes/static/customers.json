@@ -1,0 +1,14 @@
+[
+  {
+    "name": "name1",
+    "customerType": "COMPANY"
+  },
+  {
+    "name": "name2",
+    "customerType": "INDIVIDUAL"
+  },
+  {
+    "name": "name3",
+    "customerType": "INDIVIDUAL"
+  }
+]
