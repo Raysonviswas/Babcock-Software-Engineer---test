@@ -9,8 +9,8 @@
 ### Run ###
 
 1. Run mongo - Follow [Run MongoDB Community Edition] (https://docs.mongodb.com/manual/installation/) for your system (leave on default port 27017).
-2a. mvn spring-boot:run (leave on default port 8080 on localhost)
-2b. or import onto IntelliJ as maven project and run main method.
+2. mvn spring-boot:run (leave on default port 8080 on localhost)  
+  or import onto IntelliJ as maven project and run main method.
 
 ### Endpoints ###
 
