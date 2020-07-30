@@ -4,11 +4,11 @@
 
 1. Maven Latest Version
 2. Java 11
-3. MongoDB   [Installation] (https://docs.mongodb.com/manual/installation/)
+3. MongoDB [Installation](https://docs.mongodb.com/manual/installation/)
 
 ### Run ###
 
-1. Run mongo - Follow [Run MongoDB Community Edition] (https://docs.mongodb.com/manual/installation/) for your system (leave on default port 27017).
+1. Run mongo - Follow [Run MongoDB Community Edition](https://docs.mongodb.com/manual/installation/) for your system (leave on default port 27017).
 2. mvn spring-boot:run in project root folder(leave on default port 8080 on localhost)  
   or import onto IntelliJ as maven project and run main method.
 
