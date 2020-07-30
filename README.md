@@ -12,7 +12,7 @@
 2. mvn spring-boot:run in project root folder(leave on default port 8080 on localhost)  
   or import onto IntelliJ as maven project and run main method.
   
-Jar Available in Target folder.
+Jar available in Target folder.
 
 ### Endpoints ###
 
