@@ -19,6 +19,10 @@
 Gets a List of hireable vehicles in application/json response.
 
 example:
+JSON
+----
+
+```json
 [
     {
         "carNo": 1,
@@ -30,7 +34,7 @@ example:
         "id": "5f21d6cc7c7da21a583f77f2"
     }
 ]
-
+```
 #### Get "/vehicle/{carNo}/date1/{date1}/date2/{date2}" ####
 
 Get a application/text response detailing total hire rate and daily rate.
