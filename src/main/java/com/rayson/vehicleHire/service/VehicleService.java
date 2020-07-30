@@ -45,6 +45,7 @@ public class VehicleService {
 
     public void addVehicle (Vehicle vehicle) {
         vehicle.setHired(false);
+        vehicle.setCarNo(getVehicles().size()+1);
         vehicleRepository.save(vehicle);
     }
 }

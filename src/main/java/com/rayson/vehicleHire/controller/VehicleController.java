@@ -19,19 +19,20 @@ public class VehicleController {
         return vehicleService.getVehicles();
     }
 
-    @GetMapping("/hireableVehicles")
+    @GetMapping("/vehicles/hireable")
     public List<Vehicle> getHireableVehicles () {
         return vehicleService.getVehiclesByHired(false);
     }
 
-    @GetMapping("/vehicle/{id}/date1/{date1}/date2/{date2}")
-    public String getHireRate (@PathVariable(value = "id") String id,
+    @GetMapping("/vehicle/{carNo}/date1/{date1}/date2/{date2}")
+    public String getHireRate (@PathVariable(value = "carNo") String carNo,
                                @PathVariable(value = "date1") String date1,
                                @PathVariable(value = "date2") String date2) throws ParseException {
 
-        return vehicleService.getHireRate(id, date1, date2);
+        return vehicleService.getHireRate(carNo, date1, date2);
     }
 
+    //VehicleDTO
     @PostMapping("/vehicle")
     public void addVehicle(@RequestBody Vehicle vehicle) {
          vehicleService.addVehicle(vehicle);
